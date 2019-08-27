@@ -1,0 +1,6 @@
+certifi==2019.6.16
+cffi==1.12.3
+deepspeech==0.5.1
+numpy==1.17.0
+pycparser==2.19
+scipy==1.3.1

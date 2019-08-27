@@ -1,0 +1,10 @@
+{
+  "name": "deepspeech-lambda-demo",
+  "description": "",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "serverless-offline": "^5.10.1",
+    "serverless-python-requirements": "^5.0.0"
+  }
+}
