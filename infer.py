@@ -14,11 +14,9 @@ import scipy.io.wavfile
 SAMPLE_RATE = 16000
 BEAM_WIDTH = 500
 N_FEATURES = 26
-
 N_CONTEXT = 9
 
 ds = Model('model/output_graph.pbmm' , N_FEATURES, N_CONTEXT, 'model/alphabet.txt' , BEAM_WIDTH)
-
 
 def inferHandler(event, context):
     body = json.loads(event['body'])
@@ -35,4 +33,5 @@ def inferHandler(event, context):
         "statusCode": 200,
         "body": recognized_text
     }
+    
     return response

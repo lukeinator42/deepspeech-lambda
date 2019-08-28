@@ -26,14 +26,3 @@ custom:
     dockerizePip: true
     slim: true
     zip: true
-    noDeploy:
-      - boto3
-      - botocore
-      - docutils
-      - jmespath
-      - pip
-      - python-dateutil
-      - s3transfer
-      - setuptools
-      - six
-      - tensorboard
